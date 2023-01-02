@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.container {
+  background-image: linear-gradient(to left bottom, #495373c9, #17191ecb),
+    url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  padding: auto 1rem;
+  /* border: 2px solid palegreen; */
+}
+.navbar .logo {
+  width: 120px;
+}
+.navbar .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+.list li {
+  color: #edae1b;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Red Rose", cursive;
+  cursor: pointer;
+}
+.navbar .button-small {
+  background-color: #ff505f;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 24px;
+  font-family: "Red Rose", cursive;
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s all ease-in-out;
+}
+.navbar .button-small:hover {
+  background-color: #fff;
+  color: #ff505f;
+  border-color: #fff;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  max-width: 1150px;
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  padding: auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid #ff505f; */
+}
+.hero-heading {
+  color: #f1ab07;
+  font-size: 4rem;
+  font-family: "Dela Gothic One", cursive;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.button-large {
+  color: #fff;
+  background-color: #ff505f;
+  padding: 12px 26px;
+  border: 2px solid #ff505f;
+  transition: 0.3s all ease-in-out;
+  font-size: 20px;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.button-large:hover {
+  color: #ff505f;
+  background-color: #fff;
+  border-color: #fff;
+}
+.hero .bottom img {
+  width: 80px;
+  position: absolute;
+  /* display: inline-block; */
+  bottom: 20px;
+  right: 40px;
+}
